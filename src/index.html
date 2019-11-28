@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script type="text/javascript" src="index.js"></script>
+    <title>Document</title><link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Helvetica" rel="stylesheet"> -->
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Arvo">
+    <style>
+      body {
+        font-family: 'Arvo', serif;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+        
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 800, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        });
+        </script>
+         <style>
+            body, html, .main {
+              height: 100%;
+            }
+            
+            section {
+              min-height: 100%;
+            }
+            </style>
+</head>
+
+<body>
+  <div class=site>
+    <!-- navivation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-default" role="navigation">
+        <a class="navbar-brand mr-auto" href="#landing-image"><img src="images/Halterix-logo.bmp" height="30" width="30"/> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navbar-center">
+            <a class="nav-link"href="#landing-image">Halterix <span class="sr-only">(current)</span></a>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <a class="nav-link" href="#get-in-touch"> Get In Touch <span class="sr-only">(current)</span></a>
+          </ul>
+        </div>
+      </nav>
+      <!-- Video -->
+      <div class="outer-container">
+          <!-- <video id="player" src="halterix-promo.mp4" autoplay loop muted></video> -->
+          <!-- <image src="landing_page_v1.png"></image> -->
+      </div>
+      <!-- <div class='next to-about'>
+          <i class='fa fa-chevron-down'></i>
+      </div> -->
+
+      <div class="blurb0" id="landing-image">          
+        <image src="landing_page_v1.png"></image>
+      </div>
+
+      <div class="blurb1" id="get-in-touch">
+        <!-- contact below -->
+
+                <!--Contact-->
+        <form action="mail.php" method="POST">
+        <div class='contact'>
+            <div class='contact-container'>
+              <h2>Let's get in touch</h2>
+        
+              <div class='section-container'>
+                <div class='divider-bg'></div>
+        
+                <div class='input-container'>
+                  <div class='name'>
+                    <input type='text' placeholder ='Name' class='email-input' name='name' maxlength='50'>
+                    <div class='focus-underline'></div>
+                  </div>
+        
+                  <div class='email'>
+                    <input type='text' placeholder='Email Address' required class='email-input' name='email' maxlength='50'>
+                    <div class='focus-underline'></div>
+                  </div>
+        
+                  <div class='clear'></div>
+                </div>
+              </div>
+        
+              <div class='section-container'>
+                <div class='divider-bg'></div>
+        
+                <div class='input-container'>
+                  <div class='subject' maxlength='150'>
+                    <input type='text' placeholder='Subject' class='email-input' name='subject'>
+                    <div class='focus-underline'></div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class='section-container'>
+                <div class='divider-bg'></div>
+        
+                <div class='input-container'>
+                  <div class='message'>
+                    <textarea placeholder='Message' required class='email-input' name='message' maxlength='5000'></textarea>
+                    <div class='focus-underline'></div>
+                  </div>
+                </div>
+              </div>
+        
+              <div class='section-container'>
+                <div class='divider-bg'></div>
+        
+                <div class='input-container'>
+                  <button class='sent-button'>Email Sent</button>
+                  <button class='email-button'>Send Email</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </form>
+
+
+    </div> 
+  </body>
+</html>

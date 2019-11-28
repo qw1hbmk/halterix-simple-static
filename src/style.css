@@ -1,0 +1,265 @@
+
+.navbar {
+  position: fixed;
+  top:0;
+  width:100%;
+  z-index: 3;
+} 
+
+/* html{
+	background:;
+	height:100%;
+} */
+
+@media (min-width: 768px) {
+    .navbar-nav.navbar-center {
+      position: fixed;
+      left: 50%;
+      transform: translatex(-50%);
+      font-size: 20px;
+    }
+}
+
+/* .outer-container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width:0%;
+  height: 0%;
+  text-align: center;
+  overflow: hidden;
+  /* min-width: 100%; 
+  min-height: 100%;  
+} */
+
+/* .outer-container.video {
+  width:0%;
+  height: 0%; */
+  /* Make video to at least 100% wide and tall */
+
+
+  /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+  /* width: auto;
+  height: auto; */
+
+  /* Center the video
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+} */
+
+/* .outer-container:before {
+  content: '';
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.outer-container:after {
+  content: 'Watch the Future of Physiotherapy';
+  position: absolute;
+  color: darkblue;
+  font-size: 40px;
+  top: 40%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+/* .blurb1:before {
+  content: '';
+  position: relative;
+  background-color: rgba(255, 255, 0, 1);
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+} */
+
+.blurb0 {
+  position: relative;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin-top: 0vh;
+  padding-top: 100px;
+  height:100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* .injury-icon {
+  position: relative;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin-top: 0vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  
+}
+
+
+.home-icon {
+  position: relative;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin-top: 0vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 30;
+  
+}
+
+.positive-trend-icon {
+  position: relative;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  margin-top: 0vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 60;
+}*/
+
+.blurb1 {
+  position: relative;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 20vh;
+  padding-top: 100px;
+  height:100vh;
+  color: black;
+  font-size: 20px;
+  background-color: white ;
+}
+
+.contact {
+  height:100vh;
+  border-top: 1px solid rgb(188, 188, 196);
+  border-bottom: 1px solid rgb(188, 188, 196);
+  background-size: cover;
+  position: relative;
+  left: 50%;
+  align-content: center;
+}
+  .contact .contact-container {
+    position: absolute;
+    top: 15%;
+    height: 85%;
+    width: 100%; }
+    .contact .contact-container h2 {
+      /* let's get in touch text */
+      color: rgb(107, 107, 107);
+      font-weight: 400;
+      width: 95%;
+      max-width: 1200px;
+      -webkit-transform: translateX(-50%);
+              transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%); }
+    .contact .contact-container .section-container {
+      margin-top: 20px; }
+    .contact .contact-container .section-container .divider-bg {
+        position: absolute;
+        top: 75%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%);
+                transform: translateX(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        width: 100%;
+        height: 15px;
+      }
+      .contact .contact-container .section-container .input-container {
+        width: 95%;
+        max-width: 1200px;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%); }
+        .contact .contact-container .section-container .input-container > div {
+          width: 67.66%; 
+          padding-bottom: 2%;}
+        
+        /* .contact .contact-container .section-container .input-container > div.email{
+          width: 33.33%;
+        }
+
+        .contact .contact-container .section-container .input-container > div.name {
+            width: 33.33%;
+        } */
+
+          /* .contact .contact-container .section-container .input-container > div.email{
+            float: left;
+            margin-left: 1%;
+            margin-bottom: 1%;
+            width: 33.33%; } */
+          /* .contact .contact-container .section-container .input-container > div.name {
+            width: 33.33%;
+            margin-bottom: 1%;
+            float: left; } */
+
+          .contact .contact-container .section-container .input-container > div .focus-underline {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 3px;
+            width: 0;
+            background: #00a9a9; }
+        .contact .contact-container .section-container .input-container input {
+          background: rgb(188, 188, 196);
+          outline: none;
+          padding: 10px;
+          font-size: 1.25em;
+          border: none;
+          color: #333;
+          width: 100%;
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+          font-family: 'Raleway', sans-serif; }
+        .contact .contact-container .section-container .input-container textarea {
+          outline: none;
+          border: none;
+          height: 150px;
+          padding: 10px;
+          font-size: 1.25em;
+          color: #333;
+          width: 100%;
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+          font-family: 'Raleway', sans-serif; }
+        .contact .contact-container .section-container .input-container .email-button {
+          width: 33.33%;
+          border-radius: 3px;
+          outline: none;
+          padding: 10px;
+          font-size: 1.25em;
+          border: 3px solid #00a9a9;
+          background: #00a9a9;
+          text-align: center;
+          color: rgb(0, 0, 0);
+          cursor: pointer;
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2); }
+          .contact .contact-container .section-container .input-container .email-button:hover {
+            -webkit-animation: rubber-band 1s linear;
+                    animation: rubber-band 1s linear;
+            -moz-animation: rubber-band 1s linear; }
+        .contact .contact-container .section-container .input-container .sent-button {
+          width: 33.33%;
+          border-radius: 3px;
+          outline: none;
+          padding: 10px;
+          font-size: 1.25em;
+          border: 3px solid #333;
+          background: #333;
+          text-align: center;
+          color: rgb(14, 14, 14);
+          cursor: pointer;
+          box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0; }
